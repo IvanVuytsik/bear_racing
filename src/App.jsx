@@ -6,7 +6,7 @@ const App = () => {
   return ( 
    <Canvas>
         <Physics broadphase="SAP" gravity={[0, -2.5, 0]}>
-        <Scene />
+            <Scene />
         </Physics>
      </Canvas>
   )
